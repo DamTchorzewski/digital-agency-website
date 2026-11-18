@@ -1,10 +1,17 @@
 <p align="center">
-  <img src="docs/images/home.png" alt="WebStudio home page" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/banner-dark.png">
+    <img src="docs/images/banner-light.png" alt="WebStudio: website of a web agency" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <img src="docs/images/showcase.jpg" alt="WebStudio on desktop and on a phone" width="100%">
 </p>
 
 ## About
 
-**Live site:** [damtchorzewski.github.io/WebStudio](https://damtchorzewski.github.io/WebStudio/)
+<a href="https://damtchorzewski.github.io/WebStudio/"><img src="docs/images/open-site.png" alt="Open the live site" width="130"></a>
 
 **WebStudio** is a two-page, responsive site of a fictional web agency, built as a front-end exercise: a home page
 that presents the offer, the team, the skills and the clients, and a portfolio page with nine sample projects. It
@@ -37,10 +44,10 @@ The page content is in Polish; the README, commits and branches are in English.
 ## Screenshots
 
 <p align="center">
-  <img src="docs/images/home.png" alt="WebStudio home page on desktop" width="100%">
+  <img src="docs/images/pages.jpg" alt="Team and portfolio sections on desktop" width="100%">
 </p>
 <p align="center">
-  <img src="docs/images/portfolio.jpg" alt="WebStudio portfolio page on desktop" width="100%">
+  <img src="docs/images/mobile.jpg" alt="Mobile: home, offer, team and portfolio" width="100%">
 </p>
 
 ## Quick start
@@ -78,7 +85,7 @@ sass/                 main.scss, portfolio.scss, components/ (header, menu, bann
 css/                  compiled and minified styles with source maps (generated from sass/)
 js/                   mobile-menu.js, modal.js
 images/               site images in @1x / @2x / @3x variants
-docs/                 documentation and the screenshots used above
+docs/                 documentation; docs/images/ holds the README images (generated)
 .vscode/              Live Sass Compiler settings
 ```
 
@@ -91,7 +98,8 @@ merges, Conventional Commits in English. The repository has no workflows: GitHub
 
 - **No build, hooks, tests or CI:** a static course exercise; the compiled CSS is committed because Pages serves
   the repository directly.
-- **No banner or logo:** the screenshots above are the only images; the site is a fictional agency.
+- **README images** are made by `tools/readme-images` (profile `WebStudio`) from the live site; the logo is the site's
+  own wordmark.
 - **Page content in Polish.**
 
 ## Documentation
@@ -100,6 +108,13 @@ merges, Conventional Commits in English. The repository has no workflows: GitHub
 | ------------------------------------------ | ------------------------------- |
 | [docs/repository.md](docs/repository.md)   | GitHub description and topics   |
 
+The README images (`docs/images/`) are regenerated with `tools/readme-images`, profile `WebStudio`; the working shots go
+to `.scratch/`.
+
 ---
 
-Author: [Damian Tchorzewski](https://github.com/DamTchorzewski)
+<p align="center"><a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/images/damreboot/company-dark.svg"><img src="docs/images/damreboot/company-light.svg" alt="damreboot.pl: company website" height="36"></picture></a><a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/images/damreboot/linkedin-dark.svg"><img src="docs/images/damreboot/linkedin-light.svg" alt="LinkedIn: let's connect" height="36"></picture></a><a href="mailto:damianchabracki@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/images/damreboot/email-dark.svg"><img src="docs/images/damreboot/email-light.svg" alt="E-mail: write to me" height="36"></picture></a></p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/images/damreboot/engineered-dark.svg"><img src="docs/images/damreboot/engineered-light.svg" alt="" height="33" align="middle"></picture> Engineered by <b>Damian Chabracki</b> (DamReboot IT)
+</p>
