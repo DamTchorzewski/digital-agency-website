@@ -13,7 +13,7 @@
 
 <a href="https://damtchorzewski.github.io/digital-agency-website/"><img src="docs/images/open-site.png" alt="Open the live site" width="130"></a>
 
-**WebStudio** is a two-page, responsive site of a fictional web agency, built as a front-end exercise: a home page
+**WebStudio** is a two-page, responsive site of a fictional web agency: a home page
 that presents the offer, the team, the skills and the clients, and a portfolio page with nine sample projects. It
 is plain HTML, SASS-compiled CSS and a little JavaScript, with no build step in the repository.
 
@@ -27,7 +27,7 @@ is plain HTML, SASS-compiled CSS and a little JavaScript, with no build step in 
 - **Responsive images.** Background and content images come in `@1x`, `@2x` and `@3x` variants per breakpoint.
 - **Portfolio.** Nine projects as cards with an image, a name and a category, and a row of category buttons.
 
-> **Status:** a finished exercise with placeholder content: the team members are "John Doe" and the skill cards
+> **Status:** placeholder content: the team members are "John Doe" and the skill cards
 > hold Lorem ipsum. The category buttons on the portfolio page are markup only: no script filters the cards yet.
 
 ## Tech stack
@@ -96,7 +96,7 @@ merges, Conventional Commits in English. The repository has no workflows: GitHub
 
 **Departures from the standards (and why):**
 
-- **No build, hooks, tests or CI:** a static course exercise; the compiled CSS is committed because Pages serves
+- **No build, hooks, tests or CI:** a static site; the compiled CSS is committed because Pages serves
   the repository directly.
 - **README images** are made by `tools/readme-images` (profile `digital-agency-website`) from the live site; the logo is the site's
   own wordmark.
