@@ -11,7 +11,7 @@
 
 ## About
 
-<a href="https://damtchorzewski.github.io/web-studio/"><img src="docs/images/open-site.png" alt="Open the live site" width="130"></a>
+<a href="https://damtchorzewski.github.io/digital-agency-website/"><img src="docs/images/open-site.png" alt="Open the live site" width="130"></a>
 
 **WebStudio** is a two-page, responsive site of a fictional web agency, built as a front-end exercise: a home page
 that presents the offer, the team, the skills and the clients, and a portfolio page with nine sample projects. It
@@ -53,8 +53,8 @@ The page content is in Polish; the README, commits and branches are in English.
 ## Quick start
 
 ```bash
-git clone https://github.com/DamTchorzewski/web-studio.git
-cd web-studio
+git clone https://github.com/DamTchorzewski/digital-agency-website.git
+cd digital-agency-website
 npx serve .      # or open index.html in a browser
 ```
 
@@ -98,7 +98,7 @@ merges, Conventional Commits in English. The repository has no workflows: GitHub
 
 - **No build, hooks, tests or CI:** a static course exercise; the compiled CSS is committed because Pages serves
   the repository directly.
-- **README images** are made by `tools/readme-images` (profile `web-studio`) from the live site; the logo is the site's
+- **README images** are made by `tools/readme-images` (profile `digital-agency-website`) from the live site; the logo is the site's
   own wordmark.
 - **Page content in Polish.**
 
@@ -108,7 +108,7 @@ merges, Conventional Commits in English. The repository has no workflows: GitHub
 | ------------------------------------------ | ------------------------------- |
 | [docs/repository.md](docs/repository.md)   | GitHub description and topics   |
 
-The README images (`docs/images/`) are regenerated with `tools/readme-images`, profile `web-studio`; the working shots go
+The README images (`docs/images/`) are regenerated with `tools/readme-images`, profile `digital-agency-website`; the working shots go
 to `.scratch/`.
 
 ---
